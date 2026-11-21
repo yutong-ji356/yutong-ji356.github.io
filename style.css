@@ -52,16 +52,16 @@ header nav{justify-content:flex-start;margin:0}
 /* Printed texture accents over the brushed steel, behind the introduction. */
 .hero-intro{position:relative;isolation:isolate}
 .hero-intro:before,.hero-intro:after{content:'';position:absolute;pointer-events:none;z-index:-1;background-position:center;background-repeat:no-repeat;background-size:contain;mix-blend-mode:multiply}
-.hero-intro:before{background-image:url('assets/halftone.jpg');width:47%;height:100%;right:-2%;top:-35px;opacity:.23;transform:rotate(9deg);mask-image:radial-gradient(ellipse at center,#000 20%,transparent 73%);-webkit-mask-image:radial-gradient(ellipse at center,#000 20%,transparent 73%)}
-.hero-intro:after{background-image:url('assets/graphic-texture.jpg');width:33%;height:75%;left:-7%;bottom:-55px;opacity:.36;transform:rotate(-13deg);mask-image:radial-gradient(ellipse at center,#000 25%,transparent 72%);-webkit-mask-image:radial-gradient(ellipse at center,#000 25%,transparent 72%)}
+.hero-intro:before{background-image:url('halftone.jpg');width:47%;height:100%;right:-2%;top:-35px;opacity:.23;transform:rotate(9deg);mask-image:radial-gradient(ellipse at center,#000 20%,transparent 73%);-webkit-mask-image:radial-gradient(ellipse at center,#000 20%,transparent 73%)}
+.hero-intro:after{background-image:url('graphic-texture.jpg');width:33%;height:75%;left:-7%;bottom:-55px;opacity:.36;transform:rotate(-13deg);mask-image:radial-gradient(ellipse at center,#000 25%,transparent 72%);-webkit-mask-image:radial-gradient(ellipse at center,#000 25%,transparent 72%)}
 .hero-intro h1,.hero-caption{position:relative;z-index:1}
 @media(max-width:700px){.hero-intro:before{width:65%;right:-12%;top:-30px;opacity:.2}.hero-intro:after{width:48%;left:-12%;bottom:-35px;opacity:.3}}
 
 /* Large upright texture prints; multiply removes their white paper visually. */
 .hero-intro{isolation:auto}
 .hero-intro:before,.hero-intro:after{z-index:0;transform:none;mix-blend-mode:multiply;mask-image:none;-webkit-mask-image:none;background-size:contain;background-position:center;top:-35px;bottom:auto;height:calc(100% + 70px);pointer-events:none}
-.hero-intro:before{background-image:url('assets/halftone.jpg');left:-8%;right:auto;width:63%;opacity:.48}
-.hero-intro:after{background-image:url('assets/graphic-texture.jpg');right:-7%;left:auto;width:63%;opacity:.7}
+.hero-intro:before{background-image:url('halftone.jpg');left:-8%;right:auto;width:63%;opacity:.48}
+.hero-intro:after{background-image:url('graphic-texture.jpg');right:-7%;left:auto;width:63%;opacity:.7}
 .hero-intro h1,.hero-caption{z-index:1}
 @media(max-width:700px){.hero-intro:before,.hero-intro:after{transform:none;top:-10px;height:calc(100% + 20px);width:78%}.hero-intro:before{left:-28%;right:auto;opacity:.4}.hero-intro:after{right:-27%;left:auto;opacity:.6}}
 
@@ -76,7 +76,7 @@ header nav{justify-content:flex-start;margin:0}
 @media(max-width:700px){.hero-intro h1{font-size:26vw}}
 
 /* Integrate the pale graphic into the steel without a visible white rectangle. */
-.hero-intro:after{background-image:url('assets/graphic-texture.jpg');mix-blend-mode:multiply;opacity:.9}
+.hero-intro:after{background-image:url('graphic-texture.jpg');mix-blend-mode:multiply;opacity:.9}
 
 /* Loose handwritten lettering for a more doodled signature. */
 .hero-intro h1{font-family:'Caveat','Segoe Print',cursive;font-weight:400;font-size:clamp(100px,18vw,250px);letter-spacing:-.035em;line-height:1.1;color:#b2e4dc;transform:none}
@@ -84,16 +84,16 @@ header nav{justify-content:flex-start;margin:0}
 /* Larger graphic with a soft edge and no visible paper boundary. */
 .hero-intro:after{width:62%;height:125%;right:-8%;top:-12%;background-size:contain;mix-blend-mode:multiply;opacity:.72;mask-image:radial-gradient(ellipse at center,#000 35%,transparent 74%);-webkit-mask-image:radial-gradient(ellipse at center,#000 35%,transparent 74%)}
 @media(max-width:700px){.hero-intro:after{width:85%;height:115%;right:-25%;top:-5%;opacity:.6}}
-@font-face{font-family:'Cavalhatriz';src:url('assets/fonts/Cavalhatriz.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Cavalhatriz';src:url('fonts/Cavalhatriz.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
 .hero-intro h1{font-family:'Cavalhatriz','Caveat',cursive;font-weight:400}
 .hero-intro:before{opacity:.2}
 .hero-intro:after{width:80%;height:155%;right:-15%;top:-25%}
 @media(max-width:700px){.hero-intro:before{opacity:.16}.hero-intro:after{width:110%;height:145%;right:-40%;top:-18%}}
-@font-face{font-family:'Terminal Vision';src:url('assets/fonts/TerminalVision.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Terminal Vision';src:url('fonts/TerminalVision.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap}
 .hero-intro h1{font-family:'Terminal Vision',monospace;font-weight:400}
-@font-face{font-family:'Verox';src:url('assets/fonts/Verox.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Verox';src:url('fonts/Verox.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap}
 .hero-intro h1{font-family:'Verox',sans-serif;font-weight:400}
-@font-face{font-family:'Dotty';src:url('assets/fonts/dotty.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Dotty';src:url('fonts/dotty.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
 .hero-intro h1{font-family:'Dotty',monospace;font-weight:400}
 .hero-intro h1{font-family:'Verox',sans-serif;font-weight:400;font-size:clamp(85px,15vw,210px)}
 @media(max-width:700px){.hero-intro h1{font-size:25vw}}
@@ -174,7 +174,7 @@ nav a,footer a{display:inline-flex;align-items:center;min-height:44px}
 .selected-image:has(.project-photo-grid.multiple){height:410px}
 @media(max-width:700px){.selected-image:has(.project-photo-grid){height:260px;width:100%}.selected-image:has(.project-photo-grid.multiple){height:270px}}
 /* A subtle darker wash over the background texture. */
-body{background-image:linear-gradient(rgba(0,0,0,.11),rgba(0,0,0,.11)),url('assets/steel.jpg')}
+body{background-image:linear-gradient(rgba(0,0,0,.11),rgba(0,0,0,.11)),url('steel.jpg')}
 
 /* Feather the portrait into the steel without a visible image frame. */
 #about{grid-template-columns:minmax(220px,1fr) minmax(0,2fr);align-items:center;gap:45px}
