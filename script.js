@@ -5,7 +5,7 @@ const projects = [
     "name": "ESPURR",
     "category": "WEARABLE ROBOTICS · FPGA · HCI",
     "caption": "A wearable companion designed to notice the world alongside you, respond to shared moments, and help you revisit what you choose to keep.",
-    "image": "assets/espurr.png",
+    "image": "espurr.png",
     "alt": "Espurr wearable concept sketch showing a cat-shaped headpiece with a speaker and EEG electrodes",
     "question": "How can a wearable companion respond to its wearer without becoming intrusive? ESPURR explores subtle interactions while leaving the wearer in control of what gets saved.",
     "role": "I built a 101-tap Verilog FIR filter and RMS detector on the PYNQ-Z2, connected through AXI DMA. An adaptive Python detector triggers an Arduino-controlled servo when recorded EEG activity changes.",
@@ -18,15 +18,15 @@ const projects = [
     "caption": "A home audio system combining a three-band graphic equalizer, Class-D amplifier, and Arduino-driven OLED audio display.",
     "images": [
       {
-        "src": "assets/home-audio-project.png",
+        "src": "home-audio-project.png",
         "alt": "Home audio system block diagram"
       },
       {
-        "src": "assets/home-audio-prototype.png",
+        "src": "home-audio-prototype.png",
         "alt": "Breadboard home audio prototype with labeled equalizer, Class-D amplifier, RLC filter, peak detector, and Arduino"
       }
     ],
-    "image": "assets/home-audio-project.png",
+    "image": "home-audio-project.png",
     "alt": "Home audio system block diagram showing bass, mid, and treble filters, a summing amplifier and peak detector, Arduino and OLED spectrum display, and a Class-D amplifier output stage.",
     "question": "How can an audio system give listeners control over tone while making the signal visible? This course project brings analog filtering, switching amplification, and an embedded display into one design.",
     "role": "I worked on turning the circuit design into breadboard hardware, integrating and troubleshooting the equalizer, amplifier, and display. The signal path combines bass, mid, and treble filters with a summing stage, PWM amplification, and an RLC output filter.",
@@ -36,7 +36,7 @@ const projects = [
     "name": "hackmit 2026",
     "category": "HACKATHON",
     "caption": "MemoryPalace explores how EEG-informed capture and a searchable visual archive can help people revisit their experiences.",
-    "image": "assets/hackmit-2026.png",
+    "image": "hackmit-2026.png",
     "alt": "MemoryPalace project title slide for HackMIT 2026",
     "question": "How can we preserve moments without constantly reaching for a phone? Our team explored connecting changes in EEG activity with visual context for later reflection.",
     "role": "I built the camera glasses for the project, contributing the wearable capture hardware to our team’s MemoryPalace concept.",
@@ -47,7 +47,7 @@ const projects = [
     "name": "concrete (touchdesigner)",
     "category": "INTERACTIVE & VISUAL EXPERIMENTS",
     "caption": "A Brutalist-inspired structure in TouchDesigner that responds to hand gestures. Made for fun, with an interest in how digital forms can feel physical.",
-    "image": "assets/concrete-touchdesigner.png",
+    "image": "concrete-touchdesigner.png",
     "alt": "Concrete TouchDesigner interface showing hand tracking and a generated geometric visual",
     "question": "I wanted to see how moving my hands could change the way I interact with a structure on screen.",
     "role": "I used instancing to create the architecture and worked with PBR to give it a concrete-like surface. MediaPipe hand tracking lets me control it through gestures.",
