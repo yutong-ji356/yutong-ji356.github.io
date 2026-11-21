@@ -210,6 +210,49 @@ body{background-image:linear-gradient(rgba(0,0,0,.11),rgba(0,0,0,.11)),url('stee
 @media(max-width:700px){#about>div:not(.about-portrait){align-self:start}}
 /* Align the decorative graphic with the introduction's right edge. */
 .hero-intro:after{right:-22%;background-position:right center}
+
+
+
+/* FIX GITHUB PAGES ASSET PATHS */
+
+@font-face {
+  font-family: 'Cavalhatriz';
+  src: url('Cavalhatriz.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Terminal Vision';
+  src: url('TerminalVision.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Verox';
+  src: url('Verox.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotty';
+  src: url('dotty.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-image:
+    linear-gradient(rgba(0,0,0,.11), rgba(0,0,0,.11)),
+    url('steel.jpg');
+}
+
 @media(max-width:700px){.hero-intro:after{right:-46%}}
 .project-update-link{display:inline-block;margin-top:24px;padding:12px 0;min-height:44px;border-bottom:1px solid currentColor;font-size:12px;line-height:1.6}
 @media(max-width:700px){.project-update-link{font-size:14px}}
